@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginLeft="6dp"
+    android:layout_marginEnd="6dp"
+    android:layout_marginRight="6dp"
+    app:cardElevation="17dp">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/myDonationFoodImage"
+            android:layout_width="86dp"
+            android:layout_height="94dp"
+            android:layout_margin="1dp"
+            android:contentDescription="@string/donation_food_image"
+
+             />
+
+        <TextView
+            android:id="@+id/myDonationFoodType"
+            android:layout_width="180dp"
+            android:layout_height="69dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginStart="10dp"
+            android:paddingStart="6dp"
+            android:paddingEnd="1dp"
+            android:paddingTop="22dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/donationFoodQuantityTag"
+                android:layout_width="111dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="15dp"
+                android:paddingStart="22dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="2dp"
+                android:text="@string/quantity"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/darker_gray"
+
+                />
+
+            <TextView
+                android:id="@+id/myDonationFoodQuantity"
+                android:layout_width="113dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="5dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="2dp"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+
+                />
+            <TextView
+                android:id="@+id/myTimePosted"
+                android:layout_width="120dp"
+                android:layout_height="16dp"
+                android:layout_marginStart="1dp"
+                android:layout_marginTop="1dp"
+                android:paddingStart="9dp"
+                android:paddingEnd="1dp"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="10sp"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/myRequests"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="90dp"
+        android:paddingStart="6dp"
+        android:paddingEnd="2dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+
+        />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#457C7E</color>
+    <color name="colorPrimaryDark">#457C7E</color>
+    <color name="colorAccent">#457C7E</color>
+    <color name="buttonColor">#8D5809</color>
+    <color name="rippleColor"> #5C3101</color>
+    <color name="strokeColor">#5C3101</color>
+    <color name="overlayBackground">#7f333639</color>
+
+</resources>
